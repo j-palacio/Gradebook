@@ -2,6 +2,7 @@
 This program manages a gradebook for a student, incorporating grades from both the last semester and the current semester. It utilizes lists to store information about subjects and corresponding grades.
 
 **Last Semester's Gradebook**
+
 ```python
 Copy code
 last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
