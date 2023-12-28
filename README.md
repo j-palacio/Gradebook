@@ -36,3 +36,12 @@ full_gradebook = last_semester_gradebook + gradebook
 print(full_gradebook)
 ```
 This program demonstrates the addition of new subjects and grades to the gradebook, as well as the update of a grade to a "Pass" status. The final full_gradebook variable combines grades from the last semester with the current semester, providing a comprehensive overview of the student's academic performance.
+
+**Output**
+```
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88]]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100]]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+[['physics', 98], ['calculus', 97], ['poetry', 'Pass'], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+[['politics', 80], ['latin', 96], ['dance', 97], ['architecture', 65], ['physics', 98], ['calculus', 97], ['poetry', 'Pass'], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+```
