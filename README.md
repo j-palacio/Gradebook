@@ -1,12 +1,13 @@
 # Gradebook
 This program manages a gradebook for a student and incorporates grades from the last semester along with the current semester. It utilizes lists to store information about subjects and corresponding grades.
 
-Last Semester's Gradebook
-python
+**Last Semester's Gradebook**
+```python
 Copy code
 last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
-Current Semester's Gradebook
-python
+
+**Current Semester's Gradebook**
+```python
 Copy code
 # Your code below:
 subjects = ["physics", "calculus", "poetry", "history"]
@@ -27,8 +28,9 @@ print(gradebook)
 gradebook[2].remove(85)
 gradebook[2].append("Pass")
 print(gradebook)
-Full Gradebook
-python
+
+**Full Gradebook**
+```python
 Copy code
 # Combine last semester's gradebook with the current semester's gradebook
 full_gradebook = last_semester_gradebook + gradebook
